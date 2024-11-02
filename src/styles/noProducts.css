@@ -1,0 +1,9 @@
+.no-products {
+  text-align: center;
+  margin: 50px 0;
+}
+  
+.no-products h2 {
+  font-size: 2rem;
+  color: #35506d;
+}  

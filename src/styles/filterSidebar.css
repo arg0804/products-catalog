@@ -1,0 +1,60 @@
+.filter-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+h3 {
+    font-size: 1.5rem;
+    color: #35506d;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+h5{
+    font-size: 1.1rem;
+    color: #555;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 3px;
+    color: #333;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 8px 0;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #e0e0e0;
+    height: 5px;
+    border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #35506d;
+    cursor: pointer;
+}
